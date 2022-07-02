@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head> 
+        <meta name = "viewport" content = "with=device-width, initial scale= 0.1">
+        <title> my 1st website design </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a  href = "index.html"><img src = "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/logo.png"></a>
+      <div class = "nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href= "index.html">HOME</a></li>
+          <li><a href= "about.html">ABOUT</a></li>
+          <li><a href= "course.html">COURSE</a></li>
+          <li><a href= "blog.html">BLOG</a></li>
+          <li><a href= "contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>OUR COURSES</h1>
+  </section>
+ 
+<!---------------Courses--------------->
+  <section class ="course">
+    <h1>Courses we offer</h1>
+    <p>Some of the most sought-after departments in IIT Chennai are Aerospace Engineering, Computer Science and Engineering, Electrical Engineering, Civil Engineering, Mechanical Engineering, Biotechnology and Applied mechanics.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>KV IIT Chennai, is an Indian Institute of Technology secondary school affiliated to CBSE board in Chennai, India. The current principal is Dr.M.Manickasamy. It was established on 1964. It is part of the Kendriya Vidyalaya Sangathan.</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>The Indian Institutes of Technology (IIT) Madras around India provide a variety of undergraduate (UG), postgraduate (PG), and doctorate (PhD) programmes, mostly in the fields of Science, Engineering, and Technology.</p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>IIT Madras BS-MS (Dual Degree) admission is based on a candidate's performance in JEE Advanced. Further, eligible and JEE Advanced-qualified aspirants need to qualify for course and college-specific cut off rank released by JoSAA through seven rounds of counselling.</p>
+      </div>
+      
+    </div>
+  </section>
+  
+<!-----------Facilities----------->
+  <section class= "facilities">
+    <h1>Our Facilities</h1>
+    <p> There are lot of facilities and resources available at iit madras such as institute hospital, bank, post office, hostels, mess etc. Every hostel has washing machines, fully equipped sports facilities, music rooms, tech rooms and television rooms. Most hostel-level meetings take place in common rooms. The students celebrate festivals such as Holi, Pongal, Onam, Diwali, and New Year's Eve.</p>
+    <div class="row">
+         <div class= "facilities-col">
+             <img src = "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/library.png">
+           <h3>World Class Library</h3>
+           <p> central library at iit madras has large storage of books and we can find lot of books there, we can use online iitm central library website to search a book inside library. </p>
+         </div>
+         <div class= "facilities-col">
+             <img src = "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/basketball.png">
+           <h3>Largest Play Ground</h3>
+           <p> Excellent facilities are available including a Swimming pool of Olympic standards, a well-equipped gymnasium, the impressive IIT-Chemplast cricket ground, a vastsa stadium and SAC. </p>
+         </div>
+         <div class= "facilities-col">
+             <img src = "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/cafeteria.png">
+           <h3>Tasty and Healthy Food</h3>
+           <p> At IIT Madras, the food quality matches the reputation of the prestigious institute. here are two separate messes, one serving South-Indian and the other serving North-Indian.</p>
+         </div>
+    </div>
+  </section>
+<!--------------Footer--------->
+  <section class = "footer">
+    <h4>ABOUT US</h4>
+    <p>The Indian Institute of Technology Madras is known both nationally and internationally for excellence in technical education, basic and applied research, innovation, entrepreneurship and industrial consultancy. A faculty of international repute, a highly motivated and brilliant student community, excellent technical and supporting staff and an effective administration have all contributed to the pre-eminent status of IIT Madras. The Institute is proud to bear the laureate of being No.1 engineering university in India. More recently, IIT Madras has been given the title of Institute of Eminence.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkdln"></i>
+    </div>
+    <p>Made with LOVE<i class="fa fa-heart-o"></i> by Suraj ahirwar</p>
+  </section>
+  
+  
+  
+  
+
+<!--------- Javascript for Toggle Menu --------->
+  <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right="0";
+       }
+     function hideMenu(){
+       navLinks.style.right="-200px";
+     }
+  </script>
+  
+  
+</body>
+</html>

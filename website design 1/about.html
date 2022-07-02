@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> 
+        <meta name = "viewport" content = "with=device-width, initial scale= 0.1">
+        <title> my 1st website design </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a  href = "index.html"><img src = "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/logo.png"></a>
+      <div class = "nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href= "index.html">HOME</a></li>
+          <li><a href= "about.html">ABOUT</a></li>
+          <li><a href= "course.html">COURSE</a></li>
+          <li><a href= "blog.html">BLOG</a></li>
+          <li><a href= "contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+<!--------------About Us content--------->
+  <section class="about-us">
+    <div class= "row">
+          <div class="about-col">
+            <h1>We are the worlds largest university</h1>
+            <p> IIT Madras is a residential institute with nearly 550 faculty, 8000 students and 1250 administrative & supporting staff and is a self-contained campus located in a beautiful wooded land of about 250 hectares. The campus is located in the city of Chennai, previously known as Madras. Chennai is the state capital of Tamilnadu, a southern state in India.
+
+The Institute has sixteen academic departments and a few advanced research centres in various disciplines of engineering and pure sciences, with nearly 100 laboratories organised in a unique pattern.
+
+IIT Madras has been the top-ranked engineering institute in India for four consecutive years as well as  the ‘Best Educational Institution’ in Overall Category in the NIRF Rankings of 2019 put out by the Ministry of Human Resource Development.</p>
+            <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+          </div>
+          <div class="about-col">
+              <img src= "file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/about.jpg">
+          </div>
+    </div>
+  </section>
+  
+  <!--------------Footer--------->
+  <section class = "footer">
+    <h4>ABOUT US</h4>
+    <p>Over the years, our students have developed their own indigenous vocabulary that symbolises the two traits of an IITian that distinguish him from the average guy next door—creativity and brevity.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkdln"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Suraj ahirwar</p>
+  </section>
+
+<!--------- Javascript for Toggle Menu --------->
+  <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right="0";
+       }
+     function hideMenu(){
+       navLinks.style.right="-200px";
+     }
+  </script>
+  
+  
+</body>
+</html>

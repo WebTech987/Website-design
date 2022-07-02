@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head> 
+        <meta name = "viewport" content = "with=device-width, initial scale= 0.1">
+        <title> my 1st website design </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a  href = "index.html"><img src ="file:///C:/Users/suraj%20ahirwar/Documents/docs%20and%20study/documents/website%20design%201/img/logo.png"></a>
+      <div class = "nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href= "index.html">HOME</a></li>
+          <li><a href= "about.html">ABOUT</a></li>
+          <li><a href= "course.html">COURSE</a></li>
+          <li><a href= "blog.html">BLOG</a></li>
+          <li><a href= "contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+  </section>
+ <!--------------Contact Us--------->
+  <section class="location">
+     <iframe src="https://www.google.com/maps/
+                  embed?pb=!1m18!1m12!1m3!1d497511.1146356065!2d79.
+                  92880799953032!3d13.04804380118091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                  1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!
+                  1sen!2sin!4v1625743258035!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+             allowfullscreen="" loading="lazy"></iframe>  
+  </section>
+  
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>XYZ  Road, ABC building</h5>
+            <p>IIT madras chennai</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>+91 9916000016</h5>
+            <p>monday to saturday, 10AM to 5PM</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>surajahirwar36@gmail.com</h5>
+            <p>Email us your query</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form class="contact-form">
+           <input type="text" placeholder="enter your name" required>
+           <input type="email" placeholder="enter email address" required>
+           <input type="text" placeholder="enter your subject" required>
+          <textarea rows="8" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+      
+      </div>
+    </div> 
+  </section>
+  
+<!--------------Footer--------->
+  <section class = "footer">
+    <h4>ABOUT US</h4>
+    <p>The Indian Institute of Technology Madras is known both nationally and internationally for excellence in technical education, basic and applied research, innovation, entrepreneurship and industrial consultancy. A faculty of international repute, a highly motivated and brilliant student community, excellent technical and supporting staff and an effective administration have all contributed to the pre-eminent status of IIT Madras. The Institute is proud to bear the laureate of being No.1 engineering university in India. More recently, IIT Madras has been given the title of Institute of Eminence.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkdln"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Suraj ahirwar</p>
+  </section>
+
+<!--------- Javascript for Toggle Menu --------->
+  <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right="0";
+       }
+     function hideMenu(){
+       navLinks.style.right="-200px";
+     }
+  </script>
+  
+  
+</body>
+</html>
